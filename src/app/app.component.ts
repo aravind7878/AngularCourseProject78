@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Course-project';
+linkName:string='ShoppingList';
+  AppNavigation(LinkName:string){
+    this.linkName=LinkName;
+
+
+
+  }
 }
